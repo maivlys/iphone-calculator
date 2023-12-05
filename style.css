@@ -44,16 +44,20 @@ button{
   background-color: #505050;
   border: none;
   border-radius: 50%;
+  /* transition: background-color 0.2s;
+  transition-delay: 0.1s; */
 }
 
+button:focus,
 button:active{
-  background-color: #414141;
+  background-color: #3a3a3a;
 }
 
 .operators{
   background-color: #e68600;
 }
 
+.operators:focus,
 .operators:active{
   background-color: #b46900;
 }
