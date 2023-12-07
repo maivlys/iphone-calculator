@@ -19,20 +19,20 @@ body{
   padding: 15px 20px;
 }
 
-.buttons-container{
+.btns-container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 585px;
 }
 
-.buttons-row{
+.btns-row{
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
 }
 
-.last{
+.last-row{
   justify-content: flex-start;
 }
 
@@ -62,6 +62,6 @@ button:active{
   background-color: #b46900;
 }
 
-#button-clear{
+.last-row button{
   font-size: 1.8rem;
 }
