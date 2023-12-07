@@ -14,7 +14,7 @@ body{
   background-color: #141414;
 }
 
-.display{
+.container > div:first-child {
   font-size: 4.2rem;
   padding: 15px 20px;
 }
@@ -44,8 +44,7 @@ button{
   background-color: #505050;
   border: none;
   border-radius: 50%;
-  /* transition: background-color 0.2s;
-  transition-delay: 0.1s; */
+  cursor: pointer;
 }
 
 button:focus,
@@ -58,10 +57,19 @@ button:active{
 }
 
 .operators:focus,
-.operators:active{
+.operators:active
+{
   background-color: #b46900;
 }
 
 .last-row button{
   font-size: 1.8rem;
+  background-color: #929292;
+  color: #141414;
+}
+
+.last-row button:focus,
+.last-row button:active{
+  color: #D4D4D2;
+  background-color: #4d4d4d;
 }
